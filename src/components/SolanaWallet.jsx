@@ -3,7 +3,7 @@ import { mnemonicToSeed } from 'bip39';
 import { derivePath } from 'ed25519-hd-key';
 import { Keypair, Connection, PublicKey, LAMPORTS_PER_SOL } from '@solana/web3.js';
 import nacl from 'tweetnacl';
-const alchemySolanaRpcUrl = 'https://solana-mainnet.g.alchemy.com/v2/Your_Key';
+const alchemySolanaRpcUrl = 'https://solana-mainnet.g.alchemy.com/v2/YTOtieFe3dC8dZlHtg2mlDl0vi4fFSBz';
 const connection = new Connection(alchemySolanaRpcUrl, 'confirmed'); 
 
 export function SolanaWallet({ mnemonic }) {
